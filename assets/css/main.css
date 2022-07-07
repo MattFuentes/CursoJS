@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+}
+
+input {
+    color: rgb(255, 255, 255);
+}
+
+label {
+    color: rgb(212, 212, 212);
+    text-shadow: 2px 2px 2px #111;
+    font-size: 15px;
+}
+
+a input{
+    cursor: pointer;
+}
+
+.form {
+    position: relative;
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 100px;
+}
+
+.home img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 30%;
+}
+.home h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #111;
+}
+
+.home h5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #111;
+    margin-bottom: 50px;
+}
+
+.home h4 {
+    color: rgb(0, 136, 34);
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #111;
+    margin-bottom: 50px;
+}
+
+#resultado {
+    position: static;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #111;
+}
+.resultado {
+    background-color: rgb(0, 94, 5);
+}
+.error {
+    background-color: rgb(94, 0, 0);
+}
+
+#selecciona {
+    position: static;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#seleccionid{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+#selectContinents{
+    position: relative;
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 15%;
+}
+
+#selectEquipaje{
+    position: relative;
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.obligatorio {
+    color: red;
+}
+
+.complete {
+    color:rgb(181, 255, 255)
+}
+
+#selecciona {
+    color: white;
+}
+
+table {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table th {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tablaContinentes {
+    background: url(../img/pyt_57.jpg) top / cover;
+    margin-top: 65px;
+    padding: 200px;
+}
+
+.filtro-table {
+    display: none;
+}
+
+.tablaContinentes #buscador{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 49%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+body .seleccionPrecio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seleccionPrecio {
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    background-color: rgb(212, 235, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.048);
+    transition: all 500ms ease;
+    position: relative;
+}
+
+.container header {
+    padding: 30px;
+    background-color: rgb(0, 110, 110);
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.container .usd{
+    position: absolute;
+    color: #fff;
+    top: 120px;
+    left:50px;;
+    background-color: rgb(0, 117, 39);
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(17, 17, 17, 0.363);
+    border-radius: 10px;
+}
+
+.container .ars{
+    position: absolute;
+    color: #fff;
+    top: 120px;
+    right:50px;;
+    background-color: rgb(0, 110, 161);
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(17, 17, 17, 0.363);
+    border-radius: 10px;
+}

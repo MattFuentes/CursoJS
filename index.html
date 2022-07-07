@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolinea MTT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="home">
+        <span id="resultado"></span>
+        <img src="./assets/img/avion.jpg" alt="">
+        <h1>Matt Airlines</h1>
+        <h5>Un viaje, mil sueños</h5>
+        <span id="divInner"></span>
+    </div>
+    <span id="resultado" class=""></span>
+    <select id="selectContinents" onchange="getSelect();"> <!-- Queda a futuro el crear un filtro en el cual segun el continente se realizara el viaje -->
+        <option value="">Elige un continente</option>
+    </select>
+    <span id="selecciona"></span>
+    <div class="form">
+        <form id="nuevo-destino">
+            <div class="form-group">
+                <label for="origen" class="form-label">Pais Origen <span class="obligatorio">*</span></label>
+                <input type="text" class="form-control" id="origen">
+            </div>
+            <div class="form-group">
+                <label for="dest">Pais Destino <span class="obligatorio">*</span></label>
+                <input type="text" class="form-control" id="dest">
+            </div>
+            <div class="form-group">
+                <label for="duracion">Duración (dias) <span class="obligatorio">*</span></label>
+                <input type="number" class="form-control" id="duracion">
+            </div>
+            <div class="form-group">
+                <label for="equipaje">Tipo de equipaje <span class="obligatorio">*</span></label>
+                <select id="selectEquipaje" onchange="getEquipaje();">
+                    <option value="">Elige un equipaje <span class="obligatorio">*</span></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tipoida">Tipo de vuelo <span class="obligatorio">*</span></label>
+                <br>
+                <div class="idaVuelta">
+                    <label>
+                        <input type="checkbox" name="set" id="ida" value="IDA"/>
+                        <span>Ida</span>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="set" id="vuelta" value="IDA Y VUELTA"/>
+                        <span>Ida y Vuelta</span>
+                    </label>
+                </div>
+            </div>
+            <input id="seleccionid" class="waves-effect waves-light btn" type="submit" value="Seleccionar">
+        </form>
+    </div>
+    <section class="tablaContinentes">
+        <input type="text" name="buscador" id="buscador" placeholder="Buscar pais..." >
+        <table class="centered" id="listaContinentes">
+            <thead>
+                <tr>
+                    <th>CONTINENTE</th>
+                    <th>PAIS</th>
+                    <th>PRECIO APROXIMADO</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </section>
+    <section id="divisaSelector">
+        <div class="seleccionPrecio" id="seleccionDiv">
+            <div class="container" id="divisas">
+                <header>Antes de continuar, por favor seleccione su divisa</header>
+                <input type="submit" class="usd" id="selDivisasUSD" value="USD">
+                <input type="submit" class="ars" id="selDivisasARS" value="ARS">
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
