@@ -2,127 +2,127 @@
     {
         "id":1,
         "continent": "AMERICA",
-        "pais": "ARGENTINA",
-        "precio": 230
+        "country": "ARGENTINA",
+        "price": 230
     },
     {
         "id":2,
         "continent": "AMERICA",
-        "pais": "CHILE",
-        "precio": 250
+        "country": "CHILE",
+        "price": 250
     },
     {
         "id":3,
         "continent": "AMERICA",
-        "pais": "URUGUAY",
-        "precio": 152
+        "country": "URUGUAY",
+        "price": 152
     },
     {
         "id":4,
         "continent": "AMERICA",
-        "pais": "COLOMBIA",
-        "precio": 250
+        "country": "COLOMBIA",
+        "price": 250
     },
     {
         "id":5,
         "continent": "AMERICA",
-        "pais": "VENEZUELA",
-        "precio": 230
+        "country": "VENEZUELA",
+        "price": 230
     },
     {
         "id":6,
         "continent": "AMERICA",
-        "pais": "BRASIL",
-        "precio": 520
+        "country": "BRASIL",
+        "price": 520
     },
     {
         "id":7,
         "continent": "AMERICA",
-        "pais": "ESTADOS UNIDOS",
-        "precio": 720
+        "country": "ESTADOS UNIDOS",
+        "price": 720
     },
     {
         "id":8,
         "continent": "AMERICA",
-        "pais": "CANADA",
-        "precio": 850
+        "country": "CANADA",
+        "price": 850
     },
     {
         "id":9,
         "continent": "AMERICA",
-        "pais": "MEXICO",
-        "precio": 420
+        "country": "MEXICO",
+        "price": 420
     },
     {
         "id":10,
         "continent": "EUROPA",
-        "pais": "ESPAÑA",
-        "precio": 620
+        "country": "ESPAÑA",
+        "price": 620
     },
     {
         "id":11,
         "continent": "EUROPA",
-        "pais": "ALEMANIA",
-        "precio": 630
+        "country": "ALEMANIA",
+        "price": 630
     },
     {
         "id":12,
         "continent": "EUROPA",
-        "pais": "FRANCIA",
-        "precio": 610
+        "country": "FRANCIA",
+        "price": 610
     },
     {
         "id":13,
         "continent": "EUROPA",
-        "pais": "ITALIA",
-        "precio": 670
+        "country": "ITALIA",
+        "price": 670
     },
     {
         "id":14,
         "continent": "EUROPA",
-        "pais": "INGLATERRA",
-        "precio": 600
+        "country": "INGLATERRA",
+        "price": 600
     },
     {
         "id":15,
         "continent": "EUROPA",
-        "pais": "SUIZA",
-        "precio": 645
+        "country": "SUIZA",
+        "price": 645
     },
     {
         "id":16,
         "continent": "EUROPA",
-        "pais": "SUECIA",
-        "precio": 700
+        "country": "SUECIA",
+        "price": 700
     },
     {
         "id":17,
         "continent": "EUROPA",
-        "pais": "NORUEGA",
-        "precio": 710
+        "country": "NORUEGA",
+        "price": 710
     },
     {
         "id":18,
         "continent": "ASIA",
-        "pais": "RUSIA",
-        "precio": 720
+        "country": "RUSIA",
+        "price": 720
     },
     {
         "id":19,
         "continent": "ASIA",
-        "pais": "CHINA",
-        "precio": 580
+        "country": "CHINA",
+        "price": 580
     },
     {
         "id":20,
         "continent": "OCEANIA",
-        "pais": "AUSTRALIA",
-        "precio": 490
+        "country": "AUSTRALIA",
+        "price": 490
     },
     {
         "id":21,
         "continent": "OCEANIA",
-        "pais": "NUEVA ZELANDA",
-        "precio": 300
+        "country": "NUEVA ZELANDA",
+        "price": 300
     }
 ]
